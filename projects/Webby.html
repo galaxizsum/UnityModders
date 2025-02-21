@@ -1,0 +1,165 @@
+<html><head>
+    <title>Unity Modders • Projects</title>
+    <meta property="og:image" content="https://files.catbox.moe/lxtbb9.png">
+    <meta property="og:description" content="Unity Modders • Projects">
+    <meta property="og:type" content="website">
+    <meta property="og:color" content="#85138e">
+    <link rel="icon" href="https://www.pngall.com/wp-content/uploads/4/World-Wide-Web-PNG-Free-Image.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+        h1 {
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            font-size: 3rem;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.5);
+            animation: glow 1.5s ease-in-out infinite alternate;
+        }
+        .button-container {
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: auto;
+            z-index: 1000;
+        }
+        .glowing-button {
+            margin: 10px;
+            padding: 15px 30px;
+            background-color: black;
+            color: white;
+            border: 2px solid white; 
+            border-radius: 8px;
+            font-size: 16px;
+            text-transform: uppercase;
+            opacity: 0.6;
+            cursor: pointer;
+            box-shadow: 0 0 5px rgba(255, 255, 255, 0.8), 0 0 10px rgba(255, 255, 255, 0.6), 0 0 15px rgba(255, 255, 255, 0.4);
+            transition: all 0.3s ease;
+            z-index: 1000;
+        }
+        .glowing-button:hover {
+            box-shadow: 0 0 15px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 0.8), 0 0 50px rgba(255, 255, 255, 0.6);
+            transform: translateX(10px);
+        }
+        .particles {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1;
+        }
+        .particle {
+            position: absolute;
+            background-color: white;
+            border-radius: 50%;
+            opacity: 0.6;
+            animation: stars 5s infinite;
+        }
+        .credit {
+            font-family: "Courier New", Courier, monospace;
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            font-size: 10px;
+            color: grey;
+        }
+
+        .credit1 {
+            font-family: "Courier New", Courier, monospace;
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            font-size: 10px;
+            color: grey;
+        }
+        .owner-coowner-container {
+            position: absolute;
+            left: 10%;
+            top: 40%;
+            transform: translateY(-50%);
+            text-align: center;
+        }
+        .owner-coowner-container img {
+            width: 150px;
+            height: 150px;
+            border: 5px solid white;
+            margin: 10px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 0.8);
+            animation: glow 1.5s ease-in-out infinite alternate;
+        }
+        .owner-coowner-container img:hover {
+            box-shadow: 0 0 30px rgba(255, 255, 255, 1), 0 0 50px rgba(255, 255, 255, 0.8);
+        }
+        .owner-coowner-container p {
+            font-size: 15px;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 0.8);
+            color: white;
+            margin-top: 10px;
+            animation: glow 1.5s ease-in-out infinite alternate;
+        }
+        .owner-coowner-container p:hover {
+            text-shadow: 0 0 30px rgba(255, 255, 255, 1), 0 0 50px rgba(255, 255, 255, 0.8);
+        }
+        @keyframes stars {
+            0% {
+                transform: translateY(100vh) scale(0.5);
+                opacity: 0.6;
+            }
+            50% {
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(-10vh) scale(1.5);
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="credit">Made By Galaxizs</div>
+  <div class="button-container">
+  <a href="https://files.catbox.moe/wvunop.py" target="_blank">Galaxizs Spammer</a>
+  </div>
+    <div class="particles"><div class="particle" style="width: 4.85405px; height: 4.85405px; left: 3.49874vw; animation-duration: 4.37369s; animation-delay: 1.55101s;"></div><div class="particle" style="width: 2.81349px; height: 2.81349px; left: 77.0249vw; animation-duration: 2.1772s; animation-delay: 1.20536s;"></div><div class="particle" style="width: 2.12522px; height: 2.12522px; left: 83.6289vw; animation-duration: 4.85859s; animation-delay: 0.491364s;"></div><div class="particle" style="width: 2.36822px; height: 2.36822px; left: 23.723vw; animation-duration: 3.88926s; animation-delay: 1.46977s;"></div><div class="particle" style="width: 2.2789px; height: 2.2789px; left: 34.7426vw; animation-duration: 4.9278s; animation-delay: 0.0468172s;"></div><div class="particle" style="width: 3.31774px; height: 3.31774px; left: 93.1738vw; animation-duration: 3.39777s; animation-delay: 0.291509s;"></div><div class="particle" style="width: 6.8127px; height: 6.8127px; left: 75.7045vw; animation-duration: 3.64134s; animation-delay: 0.757189s;"></div><div class="particle" style="width: 6.69769px; height: 6.69769px; left: 68.4252vw; animation-duration: 4.00889s; animation-delay: 0.647136s;"></div><div class="particle" style="width: 4.41143px; height: 4.41143px; left: 24.0228vw; animation-duration: 3.71764s; animation-delay: 0.518614s;"></div><div class="particle" style="width: 5.35601px; height: 5.35601px; left: 28.5594vw; animation-duration: 2.2725s; animation-delay: 0.352876s;"></div><div class="particle" style="width: 5.14149px; height: 5.14149px; left: 92.8888vw; animation-duration: 2.64228s; animation-delay: 0.106335s;"></div><div class="particle" style="width: 5.6932px; height: 5.6932px; left: 60.5156vw; animation-duration: 4.67136s; animation-delay: 1.82992s;"></div><div class="particle" style="width: 3.80078px; height: 3.80078px; left: 95.4269vw; animation-duration: 3.54159s; animation-delay: 0.485207s;"></div><div class="particle" style="width: 4.07905px; height: 4.07905px; left: 48.8758vw; animation-duration: 2.64618s; animation-delay: 1.23393s;"></div><div class="particle" style="width: 6.92286px; height: 6.92286px; left: 15.5546vw; animation-duration: 2.46748s; animation-delay: 1.18653s;"></div><div class="particle" style="width: 2.73936px; height: 2.73936px; left: 64.8736vw; animation-duration: 2.85469s; animation-delay: 1.71212s;"></div><div class="particle" style="width: 2.69471px; height: 2.69471px; left: 57.1889vw; animation-duration: 4.57835s; animation-delay: 0.609599s;"></div><div class="particle" style="width: 5.45698px; height: 5.45698px; left: 50.4874vw; animation-duration: 3.3823s; animation-delay: 0.941899s;"></div><div class="particle" style="width: 5.78173px; height: 5.78173px; left: 99.939vw; animation-duration: 2.27903s; animation-delay: 0.354006s;"></div><div class="particle" style="width: 5.17399px; height: 5.17399px; left: 73.9571vw; animation-duration: 4.27831s; animation-delay: 1.67979s;"></div><div class="particle" style="width: 6.14964px; height: 6.14964px; left: 81.0235vw; animation-duration: 4.6819s; animation-delay: 1.26241s;"></div><div class="particle" style="width: 6.01719px; height: 6.01719px; left: 55.5639vw; animation-duration: 3.51008s; animation-delay: 1.53182s;"></div><div class="particle" style="width: 2.08987px; height: 2.08987px; left: 99.2187vw; animation-duration: 2.21364s; animation-delay: 0.240718s;"></div><div class="particle" style="width: 3.31633px; height: 3.31633px; left: 13.7939vw; animation-duration: 2.24546s; animation-delay: 1.02616s;"></div><div class="particle" style="width: 2.03651px; height: 2.03651px; left: 60.4777vw; animation-duration: 2.46932s; animation-delay: 1.20309s;"></div><div class="particle" style="width: 5.69343px; height: 5.69343px; left: 19.5908vw; animation-duration: 3.33624s; animation-delay: 0.187628s;"></div><div class="particle" style="width: 4.42867px; height: 4.42867px; left: 9.50602vw; animation-duration: 2.78679s; animation-delay: 0.540016s;"></div><div class="particle" style="width: 2.94043px; height: 2.94043px; left: 0.0626261vw; animation-duration: 3.39877s; animation-delay: 1.48224s;"></div><div class="particle" style="width: 6.85618px; height: 6.85618px; left: 57.0499vw; animation-duration: 2.38665s; animation-delay: 0.568631s;"></div><div class="particle" style="width: 5.70108px; height: 5.70108px; left: 33.7318vw; animation-duration: 2.11884s; animation-delay: 1.13894s;"></div><div class="particle" style="width: 2.25233px; height: 2.25233px; left: 93.5359vw; animation-duration: 3.56725s; animation-delay: 1.90315s;"></div><div class="particle" style="width: 2.68011px; height: 2.68011px; left: 65.2699vw; animation-duration: 3.43221s; animation-delay: 1.27785s;"></div><div class="particle" style="width: 3.18409px; height: 3.18409px; left: 67.162vw; animation-duration: 4.47475s; animation-delay: 0.411134s;"></div><div class="particle" style="width: 3.12886px; height: 3.12886px; left: 59.2169vw; animation-duration: 4.71994s; animation-delay: 1.14416s;"></div><div class="particle" style="width: 2.4407px; height: 2.4407px; left: 99.6115vw; animation-duration: 4.4271s; animation-delay: 1.05487s;"></div><div class="particle" style="width: 5.98379px; height: 5.98379px; left: 40.5012vw; animation-duration: 3.44647s; animation-delay: 1.48257s;"></div><div class="particle" style="width: 4.46497px; height: 4.46497px; left: 36.8237vw; animation-duration: 2.70983s; animation-delay: 1.97146s;"></div><div class="particle" style="width: 5.23958px; height: 5.23958px; left: 2.80037vw; animation-duration: 3.66979s; animation-delay: 0.450456s;"></div><div class="particle" style="width: 5.38063px; height: 5.38063px; left: 21.4756vw; animation-duration: 4.46596s; animation-delay: 1.70817s;"></div><div class="particle" style="width: 5.13549px; height: 5.13549px; left: 14.2567vw; animation-duration: 3.5149s; animation-delay: 1.7999s;"></div><div class="particle" style="width: 4.2183px; height: 4.2183px; left: 29.0558vw; animation-duration: 4.98663s; animation-delay: 1.94722s;"></div><div class="particle" style="width: 4.0314px; height: 4.0314px; left: 6.73144vw; animation-duration: 4.23901s; animation-delay: 0.798986s;"></div><div class="particle" style="width: 4.94213px; height: 4.94213px; left: 4.29476vw; animation-duration: 3.09218s; animation-delay: 1.82028s;"></div><div class="particle" style="width: 5.90326px; height: 5.90326px; left: 65.7417vw; animation-duration: 3.39161s; animation-delay: 1.67026s;"></div><div class="particle" style="width: 6.77524px; height: 6.77524px; left: 23.4988vw; animation-duration: 2.02362s; animation-delay: 0.460763s;"></div><div class="particle" style="width: 6.83298px; height: 6.83298px; left: 0.28393vw; animation-duration: 3.08573s; animation-delay: 0.387179s;"></div><div class="particle" style="width: 4.28878px; height: 4.28878px; left: 41.0537vw; animation-duration: 2.37342s; animation-delay: 1.72264s;"></div><div class="particle" style="width: 4.45127px; height: 4.45127px; left: 76.7302vw; animation-duration: 4.80568s; animation-delay: 1.1192s;"></div><div class="particle" style="width: 5.52183px; height: 5.52183px; left: 79.5546vw; animation-duration: 4.44699s; animation-delay: 1.83664s;"></div><div class="particle" style="width: 5.26923px; height: 5.26923px; left: 29.0944vw; animation-duration: 4.9096s; animation-delay: 0.0450289s;"></div></div>
+    <script>
+        const particleContainer = document.querySelector('.particles');
+        const particleCount = 50;
+
+        for (let i = 0; i < particleCount; i++) {
+            const particle = document.createElement('div');
+            const size = Math.random() * 5 + 2;
+            particle.classList.add('particle');
+            particle.style.width = `${size}px`;
+            particle.style.height = `${size}px`;
+            particle.style.left = `${Math.random() * 100}vw`;
+            particle.style.animationDuration = `${Math.random() * 3 + 2}s`;
+            particle.style.animationDelay = `${Math.random() * 2}s`;
+            particleContainer.appendChild(particle);
+        }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+    <script>
+        const music = new Howl({
+            src: ['assets/Sway.mp3'],
+            loop: true,
+            volume: 1
+        });
+        music.play();
+    </script>
+
+
+</body></html>
